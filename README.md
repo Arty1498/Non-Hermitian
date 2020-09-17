@@ -1,1 +1,1 @@
-# First_arty_proj
+You need to download all the files, in the "main.mlx" specify the parameter of the Hamiltonian (r) and the evolution time (t) and run it.
