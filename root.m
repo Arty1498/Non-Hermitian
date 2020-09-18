@@ -14,7 +14,7 @@ c6 = [cos(x(6)/2) -exp(x(14)*1i)*sin(x(6)/2) ; exp(x(22)*1i)*sin(x(6)/2) exp((x(
 c7 = [cos(x(7)/2) -exp(x(15)*1i)*sin(x(7)/2) ; exp(x(23)*1i)*sin(x(7)/2) exp((x(15)+x(23))*1i)*cos(x(7)/2)];
 c8 = [cos(x(8)/2) -exp(x(16)*1i)*sin(x(8)/2) ; exp(x(24)*1i)*sin(x(8)/2) exp((x(16)+x(24))*1i)*cos(x(8)/2)];
 
-%our cicuit 
+%determine our cicuit 
 C = kron(c7,c8)*cnot*kron(c5,c6)*cnot*kron(c3,c4)*cnot*kron(c1,c2);
 
 %a function of the accuracy of the approximation
